@@ -1,11 +1,14 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
+#import spectral_cube
 from spectral_cube import SpectralCube
 import astropy.units as u 
 import copy 
 
 st.title('FITS Cube Viewer')
+
+#st.write(str(spectral_cube.__version__))
 
 st.header('Channel Viewer')
 if 'channel' not in st.session_state:

@@ -2,3 +2,4 @@ numpy>=1.21,<2.0
 matplotlib==3.9.4
 astropy==5.3.2
 streamlit==1.42.2
+spectral_cube==0.6.6
